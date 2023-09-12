@@ -106,6 +106,7 @@ h3{
     column-gap: 70px;
     row-gap: 50px;
     flex-wrap: wrap;
+    margin-botton: 122px;
 }
 
 .card{
