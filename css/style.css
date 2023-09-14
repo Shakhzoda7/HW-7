@@ -110,7 +110,7 @@ h3{
 }
 
 .card{
-    flex-basis: 450px;
+    flex-basis: 700px;
     flex-grow: 1;
     flex-shrink: 1;
 }
