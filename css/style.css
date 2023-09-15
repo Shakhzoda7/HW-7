@@ -124,10 +124,11 @@ h3{
 body{
     font-family: 'TT Hoves';
     color: #222;
+    
 }
 
 section{
-    padding: 0 120px;
+    padding: 0 200px;
 }
 
 .logo{
