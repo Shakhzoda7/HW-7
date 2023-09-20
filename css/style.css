@@ -293,3 +293,94 @@ section.purple{
     background-size: contain;
 }
 
+h2{
+    font-size: calc(2.6vw + 24px);
+}
+
+.legend{
+    margin-top: calc(5.5vw + 19px);
+    display: flex;
+    gap: 20px 50px;
+    flex-wrap: wrap;
+}
+
+.bio{
+    flex-basis: 460px;
+    flex-grow: 3;
+}
+
+.ym{
+    flex-basis: 200px;
+}
+
+.ym img {
+    width: 100%;
+    flex-grow: 1;
+}
+
+.bio h3{
+    font-size: 48px;
+    color: #222;
+    text-transform: capitalize;
+    text-align: left;
+}
+
+.achievments{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: calc(1vw + 26px) calc(8.8vw - 23px);
+    margin-top: calc(0.5vw + 14px);
+}
+
+.achievment span{
+    display: block;
+    margin-top: 10px;
+    font-size: calc(0.5vw + 14px);
+}
+
+.diploma-wrap{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 160px;
+}
+
+.diploma-wrap h2{
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+.diploma-desc{
+    flex-basis: 460px;
+    flex-grow: 3;
+}
+
+.diploma{
+    flex-basis: 430px;
+}
+
+.diploma img{
+    width: 100%;
+}
+
+.price{
+    font-size: 27px;
+    font-weight: 700;
+}
+
+.price-desc{
+    margin-top: 40px;
+    margin-bottom: 36px;
+}
+
+.materials{
+    margin-top: 90px;
+    display: flex;
+    align-items: center;
+}
+
+.box-desc p{
+    padding-bottom: 25px;
+    font-size: 21px;
+}
+
