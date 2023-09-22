@@ -175,6 +175,7 @@ h3{
 
 .purple{
     background-color: #6E3ABA;
+    margin-top: 160px;
 }
 
 .purple h3{
@@ -257,7 +258,7 @@ section.purple{
     font-weight: 400;
     border-bottom: 1px solid #A1A1A1;
     padding: 24px 0;
-    width: 949px;
+
 }
 
 .schedule{
@@ -384,3 +385,96 @@ h2{
     font-size: 21px;
 }
 
+.prog{
+    border: 2px solid black;
+    padding: calc(4.4vw + 23px) calc(4.9vw + 2px) calc(1.33vw + 18px);
+    position: relative;
+}
+
+#corner{
+    width: calc(8vw);
+    position: absolute;
+    top: -2px;
+    right: -2px;
+}
+
+.primary{
+    width: 424px;
+    margin-top: 34px;
+}
+
+.prog h2{
+    margin-top: 0px;
+    margin-bottom: 16px;
+}
+
+.desktop{
+    display: block;
+}
+
+.mobile{
+    display: none;
+}
+
+.aboutus{
+    display: flex;
+    column-gap: 97px;
+    row-gap: 40px;
+}
+
+.left-box{
+    flex-basis: 426px;
+}
+
+.right-box{
+    flex-basis: 461px;
+}
+
+.aboutus{
+    margin-top: 80px;
+    align-items: end;
+    flex-wrap: wrap;
+}
+
+.left-box p{
+    font-size: 27px;
+    font-weight: 600;
+    line-height: 140%;
+    text-transform: uppercase;
+    margin-top: 40px;
+}
+
+.right-box b{
+    font-size: 58px;
+    font-weight: 700;
+    letter-spacing: 0.58px;
+}
+
+.right-box p{
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 140%;
+}
+
+.gallery-text{
+    font-size: 27px;
+    font-weight: 400;
+    line-height: 140%;
+    margin-top: 14px;
+    margin-bottom: 24px;
+}
+
+@media (max-width: 700px) {
+    .desktop{
+        display: none;
+    }
+
+    .mobile{
+        display: block;
+    }
+
+    .lesson:nth-child(7){
+        border:0;
+        padding-bottom: 0;
+    }
+}
