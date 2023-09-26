@@ -478,3 +478,159 @@ h2{
         padding-bottom: 0;
     }
 }
+
+.request{
+    display: flex;
+    gap: 90px 145px;
+    flex-wrap: wrap;
+}
+
+.request .left-box{
+    flex-basis: 445px;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+.info{
+    display: flex;
+    align-items: center;
+    padding-bottom: 24px;
+    color: var(--typo-white, #FFF);
+    font-size: 27px;
+    font-weight: 400;
+}
+
+.black{
+    background-color: #222;
+}
+
+.black h2{
+    color: #FFF;
+    margin-top: 80px;
+    padding-bottom: 80px;
+}
+
+.info span{
+    color: #FFF;
+    font-size: 27px;
+    font-weight: 400;
+    padding-left: 20px;
+}
+
+.request-form{
+    border-radius: 12px;
+    text-align: center;
+    background: #FFF;
+    padding: 60px 60px 50px 60px;
+
+    margin-bottom: 80px;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 475px;
+    flex-grow: 1;
+}
+
+.form-text{
+    opacity: 0.5;
+}
+
+.request-form h4{
+    color: #222;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.request-form span{
+    color: #222;
+    font-size: 21px;
+    font-weight: 400;
+}
+
+.bold{
+    color: #222;
+    opacity: 0.5;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: lowercase;
+    margin-bottom: 10px;
+}
+
+.request-form div{
+    color: #222;
+    text-align: center;
+    font-size: 18px;
+
+    text-transform: lowercase;
+}
+
+
+
+.black .primary{
+    opacity: 1;
+    color: #FFF;
+    margin-top: 30px;
+    margin-bottom: 41px;
+    text-transform: initial;
+}
+
+form{
+    margin-top: 7px;
+    
+}
+
+input{
+    outline: none;
+    border: none;
+    padding-bottom: 10px;
+    padding-top: 23px;
+    border-bottom: 1px solid rgba(161, 161, 161, 0.42);
+    display: block;
+    width: 338px;
+    font-size: 20px;
+    line-height: 150%; 
+    text-transform: capitalize;
+    
+}
+
+.phone-input{
+    padding-top: 23px;
+    display: flex;
+}
+
+.phone-input input{
+    padding-top: 0;
+}
+
+.phone-input span{
+    padding-bottom: 10px ;
+    border-bottom: 1px solid rgba(161, 161, 161, 0.42);
+    padding-right: 9px;
+}
+
+::placeholder{
+    color: rgba(0, 0, 0, 0.17);
+}
+
+.discount{
+    width: 159px;
+    height: 159px;
+    color: #FFF;
+    font-size: 63px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 50%;
+    background-color: #6E3ABA;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: -61px;
+    left: -67px;
+}
+
+.right-box{
+    position: relative;
+    margin-top: 100px;
+}
